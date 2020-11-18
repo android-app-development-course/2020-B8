@@ -57,7 +57,7 @@
         >
 
         <ImageView
-            android:id="@+id/iv_test"
+          
             android:layout_width="202dp"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
@@ -78,7 +78,7 @@
         >
 
         <ImageView
-            android:id="@+id/iv_test"
+
             android:layout_width="202dp"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
@@ -111,9 +111,8 @@
                 android:layout_weight="1"
                 android:layout_height="30pt"
                 android:text="首页"
-                android:onClick="acEvent"
+
                 android:layout_marginRight="2pt"
-                android:background="@color/color2"
                 android:textSize="20dp"
                 ></Button>
 
@@ -122,8 +121,8 @@
                 android:layout_height="30pt"
                 android:layout_marginRight="2pt"
                 android:layout_weight="1"
-                android:background="@color/color2"
-                android:onClick="numberEvent"
+
+
                 android:textSize="20dp"
                 android:text="购物车"></Button>
 
@@ -131,9 +130,9 @@
                 android:layout_weight="1"
                 android:layout_height="30pt"
                 android:text="我的"
-                android:onClick="operatorEvent"
+
                 android:layout_marginRight="2pt"
-                android:background="@color/color2"
+
                 android:textSize="20dp"
                 ></Button>
 

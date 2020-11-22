@@ -11,38 +11,44 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
-        <EditText
-            android:id="@+id/weight"
-            android:layout_width="match_parent"
+        <TableRow
             android:layout_height="wrap_content"
-            android:layout_margin="30dp"
-            android:hint="请输入您要搜索的书名"
-            android:inputType="date"
-            android:textSize="20dp"></EditText>
+            android:layout_width="match_parent">
+
+            <EditText
+                android:id="@+id/weight"
+                android:layout_width="293dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="请输入您要搜索的书名"
+                android:inputType="date"
+                android:textSize="20dp"></EditText>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:text="搜索">
+
+            </Button>
+
+        </TableRow>
+
+
     </LinearLayout>
 
 
 <TableRow
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    >
-
-    <ImageView
-        android:id="@+id/iv_test"
-        android:layout_width="202dp"
+    android:layout_height="wrap_content">
+    <fragment
+        android:id="@+id/f_book_view_1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
-        android:scaleType="fitXY"
-        android:src="@drawable/p1"></ImageView>
-    <ImageView
+        android:name="com.example.bookshop.BookViewFragment"/>
 
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
-        android:scaleType="fitXY"
-        android:src="@drawable/p1"
-        ></ImageView>
 </TableRow>
     <TableRow
         android:layout_width="match_parent"
@@ -93,12 +99,6 @@
             android:src="@drawable/p1"
             ></ImageView>
     </TableRow>
-
-
-
-
-
-
 
     <LinearLayout
         android:layout_width="match_parent"

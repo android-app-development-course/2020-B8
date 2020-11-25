@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_margin="2pt"
-    tools:context=".Content_MainActivity">
+    android:layout_margin="2pt">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -68,46 +67,5 @@
             android:layout_height="wrap_content"
             android:name="com.example.bookshop.BookViewFragment"/>
     </TableRow>
-
-    <!--    <LinearLayout-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="wrap_content">-->
-    <!--        <TableRow-->
-    <!--            android:layout_marginBottom="1pt"-->
-    <!--            android:layout_width="match_parent"-->
-    <!--            android:layout_height="match_parent" >-->
-
-    <!--            <Button-->
-    <!--                android:id="@+id/buAC"-->
-    <!--                android:layout_weight="1"-->
-    <!--                android:layout_height="30pt"-->
-    <!--                android:text="首页"-->
-
-    <!--                android:layout_marginRight="2pt"-->
-    <!--                android:textSize="20dp" />-->
-
-    <!--            <Button-->
-    <!--                android:id="@+id/buPlusMinus"-->
-    <!--                android:layout_height="30pt"-->
-    <!--                android:layout_marginRight="2pt"-->
-    <!--                android:layout_weight="1"-->
-
-
-    <!--                android:textSize="20dp"-->
-    <!--                android:text="购物车" />-->
-
-    <!--            <Button-->
-    <!--                android:id="@+id/buDivide"-->
-    <!--                android:layout_weight="1"-->
-    <!--                android:layout_height="30pt"-->
-    <!--                android:text="我的"-->
-
-    <!--                android:layout_marginRight="2pt"-->
-
-    <!--                android:textSize="20dp" />-->
-
-
-    <!--        </TableRow>-->
-    <!--    </LinearLayout>-->
 
 </LinearLayout>

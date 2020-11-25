@@ -1,4 +1,4 @@
-package com.example.bookshop.ui.slideshow
+package com.example.bookshop.ui.favourite
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,9 +10,9 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.bookshop.R
 
-class SlideshowFragment : Fragment() {
+class FavouriteFragment : Fragment() {
 
-    private lateinit var slideshowViewModel: SlideshowViewModel
+    private lateinit var slideshowViewModel: FavouriteViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -20,12 +20,12 @@ class SlideshowFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         slideshowViewModel =
-            ViewModelProvider(this).get(SlideshowViewModel::class.java)
+            ViewModelProvider(this).get(FavouriteViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_favourite, container, false)
-        val textView: TextView = root.findViewById(R.id.text_slideshow)
-        slideshowViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
-        })
+//        val textView: TextView = root.findViewById(R.id.text_slideshow)
+//        slideshowViewModel.text.observe(viewLifecycleOwner, Observer {
+//            textView.text = it
+//        })
         return root
     }
 }

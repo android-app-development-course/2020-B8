@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.bookshop.ui.home.HomeFragment"
+        android:name="com.example.bookshop.ui.shop.ShopFragment"
         android:label="@string/menu_level_1"
         tools:layout="@layout/fragment_shop" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.example.bookshop.ui.gallery.GalleryFragment"
+        android:name="com.example.bookshop.ui.person_profile.PersonProfileFragment"
         android:label="@string/menu_level_2"
         tools:layout="@layout/fragment_person_profile" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.example.bookshop.ui.slideshow.SlideshowFragment"
+        android:name="com.example.bookshop.ui.favourite.FavouriteFragment"
         android:label="@string/menu_level_3"
         tools:layout="@layout/fragment_favourite" />
 </navigation>

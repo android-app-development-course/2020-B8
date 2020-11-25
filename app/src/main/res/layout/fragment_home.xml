@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="2pt"
+    tools:context=".Content_MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <EditText
+                android:id="@+id/weight"
+                android:layout_width="293dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="请输入您要搜索的书名"
+                android:inputType="date"
+                android:textSize="20dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:text="搜索">
+
+            </Button>
+
+        </TableRow>
+
+
+    </LinearLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <fragment
+            android:id="@+id/f_book_view_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.bookshop.BookViewFragment"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <fragment
+            android:id="@+id/f_book_view_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.bookshop.BookViewFragment"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <fragment
+            android:id="@+id/f_book_view_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.bookshop.BookViewFragment"/>
+    </TableRow>
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content">-->
+    <!--        <TableRow-->
+    <!--            android:layout_marginBottom="1pt"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" >-->
+
+    <!--            <Button-->
+    <!--                android:id="@+id/buAC"-->
+    <!--                android:layout_weight="1"-->
+    <!--                android:layout_height="30pt"-->
+    <!--                android:text="首页"-->
+
+    <!--                android:layout_marginRight="2pt"-->
+    <!--                android:textSize="20dp" />-->
+
+    <!--            <Button-->
+    <!--                android:id="@+id/buPlusMinus"-->
+    <!--                android:layout_height="30pt"-->
+    <!--                android:layout_marginRight="2pt"-->
+    <!--                android:layout_weight="1"-->
+
+
+    <!--                android:textSize="20dp"-->
+    <!--                android:text="购物车" />-->
+
+    <!--            <Button-->
+    <!--                android:id="@+id/buDivide"-->
+    <!--                android:layout_weight="1"-->
+    <!--                android:layout_height="30pt"-->
+    <!--                android:text="我的"-->
+
+    <!--                android:layout_marginRight="2pt"-->
+
+    <!--                android:textSize="20dp" />-->
+
+
+    <!--        </TableRow>-->
+    <!--    </LinearLayout>-->
+
+</LinearLayout>
